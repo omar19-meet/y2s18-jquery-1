@@ -10,3 +10,11 @@ function randomY() {
 /* END PROVIDED CODE */
 
 // Write your code below this line :)
+function randomLocation(){
+}
+
+$("#moveButton").on("click", function(){
+	$("#message").css("left", randomX())
+	$("#message").css("top", randomY())
+	
+}
